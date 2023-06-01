@@ -197,7 +197,7 @@ section .title::after {
 }
 
 /* home section styling */
-.home {
+.home-2,.home {
   display: flex;
   background: url(./images/background.jpg) no-repeat center;
   background-color: #111;
@@ -210,39 +210,39 @@ section .title::after {
   /* border: 3px solid red; */
 }
 
-.home .max-width {
+.home-2 .max-width {
   width: 100%;
   display: flex;
 }
 
-.home .max-width .row {
+.home-2 .max-width .row {
   margin-right: 0;
 
 }
 
-.home .home-content .text-1 {
+.home-2 .home-content .text-1 {
   font-size: 27px;
   margin-top: -250px;
   /* border: 3px solid red; */
 }
 
-.home .home-content .text-2 {
+.home-2 .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
 }
 
-.home .home-content .text-3 {
+.home-2 .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
 }
 
-.home .home-content .text-3 span {
+.home-2 .home-content .text-3 span {
   color: #2253c8;
   font-weight: 500;
 }
 
-.home .home-content a {
+.home-2 .home-content a {
   display: inline-block;
   background: #2253c8;
   color: #fff;
@@ -255,7 +255,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 
-.home .home-content a:hover {
+.home-2 .home-content a:hover {
   color: #2253c8;
   background: none;
 }
@@ -847,15 +847,15 @@ footer span a:hover {
     font-size: 25px;
   }
 
-  .home .home-content .text-2 {
+  .home-2 .home-content .text-2 {
     font-size: 70px;
   }
 
-  .home .home-content .text-3 {
+  .home-2 .home-content .text-3 {
     font-size: 35px;
   }
 
-  .home .home-content a {
+  .home-2 .home-content a {
     font-size: 23px;
     padding: 10px 30px;
   }
@@ -907,15 +907,15 @@ footer span a:hover {
     padding: 0 23px;
   }
 
-  .home .home-content .text-2 {
+  .home-2 .home-content .text-2 {
     font-size: 60px;
   }
 
-  .home .home-content .text-3 {
+  .home-2 .home-content .text-3 {
     font-size: 32px;
   }
 
-  .home .home-content a {
+  .home-2 .home-content a {
     font-size: 20px;
   }
 
@@ -935,11 +935,11 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
-  .home .home-content .text-2 {
+  .home-2 .home-content .text-2 {
     font-size: 50px;
   }
 
-  .home .home-content .text-3 {
+  .home-2 .home-content .text-3 {
     font-size: 27px;
   }
 
@@ -1013,11 +1013,11 @@ footer span a:hover {
     /* border: 4px solid green; */
   }
 
-  .home .home-content .text-2 {
+  .home-2 .home-content .text-2 {
     font-size: 50px;
   }
 
-  .home .home-content .text-3 {
+  .home-2 .home-content .text-3 {
     font-size: 27px;
   }
 
