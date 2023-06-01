@@ -33,6 +33,9 @@ html {
 section {
   padding: 100px 0;
 }
+#main_nav_bar{
+    padding: 0px 0;
+}
 
 .max-width {
   max-width: 1300px;
