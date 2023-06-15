@@ -241,17 +241,22 @@ section .title::after {
   color: #2253c8;
   font-weight: 500;
 }
-
+.home-2 .home-content button{
+  border-radius: 6px;
+  background: #2253c8;
+  border: 2px solid #2253c8;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
 .home-2 .home-content a {
   display: inline-block;
   background: #2253c8;
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
-  margin-top: 20px;
   font-weight: 400;
+  /* border: 2px solid #2253c8; */
   border-radius: 6px;
-  border: 2px solid #2253c8;
   transition: all 0.3s ease;
 }
 
@@ -259,7 +264,10 @@ section .title::after {
   color: #2253c8;
   background: none;
 }
-
+.home-2 .home-content button:hover {
+  color: #2253c8;
+  background: none;
+}
 
 
 /* about section styling */
