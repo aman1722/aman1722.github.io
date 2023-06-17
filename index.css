@@ -505,6 +505,9 @@ section .title::after {
 }
 
 /* project section styling */
+.project-img{
+  width: 100%;
+}
 
 .project .carousel .project-card {
   background: #222;
