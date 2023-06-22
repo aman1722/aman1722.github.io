@@ -406,6 +406,7 @@
     </div>
 
     <script>
+         GitHubCalendar(".calendar", "aman1722");
         // Fetch your private repository commits using GitHub API
         fetch("https://api.github.com/users/aman1722/events")
             .then((response) => response.json())
@@ -419,7 +420,7 @@
                 }));
 
                 // Display the private repository commits on the calendar
-                GitHubCalendar(".calendar", "aman1722", { data: privateCommitData });
+                GitHubCalendar(".calendar", "aman1722", { data: privateCommitData , responsive: true});
             })
             .catch((error) => {
                 console.error("Error fetching commit data:", error);
