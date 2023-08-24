@@ -1096,10 +1096,12 @@ footer span a:hover {
     max-width: 100%; /* Ensure the container doesn't exceed the screen width */
     height: auto;    /* Maintain the image's aspect ratio */
     display: block;  /* Ensure proper block-level behavior */
-    margin: 0 auto;  /* Center the container horizontally */
+    margin: auto;  /* Center the container horizontally */
 }
 
 .image-container img {
     max-width: 100%; /* Make sure the image doesn't exceed its container's width */
-    height: auto;    /* Maintain the image's aspect ratio */
+    height: auto;
+  display: block;  /* Ensure proper block-level behavior */
+    margin: auto;/* Maintain the image's aspect ratio */
 }
